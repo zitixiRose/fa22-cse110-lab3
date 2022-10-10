@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tutorial</title>
+
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png" >
+</head>
+<body>
+  <header>
+    <div>All Functions</div>
+
+    <nav>
+      <ul>
+        <li><a href="#tags">Ingredients</a></li>
+        <li><a href="#steps">Steps</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+       
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <h1>Learn HTML Basics for Beginners in Just 15 Minutes</h1>
+
+    <img src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" 
+    alt="HTML logo" width="250">
+
+    <h2 id="tags">Tags</h2>
+
+    <ol>
+      <li><input type="checkbox">Header1</li>
+      <li><input type="checkbox">Paragraph</li>
+    </ol>
+
+    <h2 id="steps">Steps</h2>
+
+    <section>
+
+    <h3>Step 1</h3>
+
+    <p><b>Document metadata</b></p>
+    <p><i>Metadata</i> elements are <span style="color:red">not</span> rendered to your webpage, rather they are used by the browser to provide extra 
+      information to your webpage like a title and icon in the browser tab bar or a description of your website</p>
+
+    </section>
+
+    <section>
+
+    
+    <h3>Step 2</h3>
+
+    <p><strong>Content sectioning</strong></p>
+    <p><em>Sectioning</em> tags are necessary for your browser to correctly understand the structure of your webpage. 
+      Correct webpage sectioning helps in areas like Search Engine Optimization. 
+      Note that the way that you section your webpage does NOT have to be exactly how the webpage is structured visually, 
+      rather think of your section elements as a guide to your web browser on how your page should be interpreted.</p>
+
+  </section>
+
+  <details>
+    <summary>Interactive Elements</summary>
+    Interactive elements provides your webpage with some basic interactive functionality without the use of Javascript. 
+  </details>
+
+  <audio controls src="audio_only.m4a"></audio>
+  <video controls src="zoom_0.mp4"></video>
+  
+  </main>
+
+  <hr>
+
+  <footer onsubmit="alert('Subscribed')">
+    <h6 id="subscrib">Subscribe</h6>
+
+    <form>
+
+      <fieldset>
+        <legend>Do you agree?</legend>
+        <input type="checkbox" id="chbx" name="agree" value="Yes!" />
+        <label for="chbx">I agree</label>
+
+        <div>
+          <input type="radio" id="half" name="drone" value="half"
+                 checked>
+          <label for="half">Half</label>
+        </div>
+    
+        <div>
+          <input type="radio" id="disagree" name="drone" value="disagree">
+          <label for="disagree">Disagree</label>
+        </div>
+      </fieldset>
+
+      
+
+      <textarea name="textarea" rows="10" cols="50">What do you think?</textarea>
+
+      <br>
+
+      <input type="text" placeholder="Enter Email Adress">
+
+      <button>Submit</button>
+
+      <label for="Is it useful">Is it useful?:</label>
+
+<select name="choice" id="Is it useful">
+    <option value="">--Please choose an option--</option>
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+</select>
+
+<br>
+
+<input type="date" list="popularHours" />
+<datalist id="popularHours">
+  <option value="2018-07-22"></option>
+  <option value="2020-02-07"></option>
+  <option value="2022-10-09"></option>
+</datalist>
+      
+    </form>
+
+    <br>
+
+    <div>&copy; CSE110 Lab2 by Rose</div>
+  </footer>
+</body>
+</html>

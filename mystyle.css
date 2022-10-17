@@ -1,0 +1,143 @@
+/*change the color of website background*/
+body {
+    background-color: lavender;
+  }
+
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+h1 {
+    color: navy;
+    max-width: 1000px;
+    margin: auto;
+    
+    border: medium groove rgb(148, 74, 233);
+    border-radius: 1pc;
+  }
+
+h3 {
+    color: hsl(231, 74%, 62%);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    }
+
+select {
+    width: 120px;
+    height: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    display: inline-block;
+  }
+
+p {
+    margin: 1em 50px 1ch 100px;
+    text-align-last: center;
+    
+    
+}
+
+ol {
+    padding: 25px 50px 75px 100px;
+    text-decoration: underline red;
+}
+
+li {
+    display: block;
+  }
+
+  span {
+    min-width: 1cm;
+    background-color: yellow;
+    display: inline-block;
+  }
+
+img {
+    position: relative;
+    left: 1100px;
+    top: 1vh;
+  
+}
+
+
+
+video {
+    width: 500px;
+    height: auto;
+    position:static;
+    
+}
+
+a:link {
+    color: #255b55;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #32a999;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #0a306b;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #4f41c9;
+  }
+
+  .flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+  }
+
+  .flexbox-item-1{
+    min-height: 100px;
+  }
+  .flexbox-item-2{
+    min-height: 150px;
+  }
+  .flexbox-item-3{
+    min-height: 200px;
+  }
+
+  /*instantiate a grid for the layouts*/
+  .grid-container {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 100px;
+  }
+
+  .grid-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+
+
+  
+

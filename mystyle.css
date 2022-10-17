@@ -18,13 +18,25 @@ h1 {
     border-radius: 1pc;
   }
 
+  #steps {
+    margin-left: 60px;
+  }
+
+  * {
+    position: relative;
+  }
+
 h3 {
-    color: hsl(231, 74%, 62%);
+   
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
     }
+
+h3, p {
+  color: hsl(231, 74%, 62%);
+}
 
 select {
     width: 120px;
@@ -67,13 +79,35 @@ img {
   
 }
 
+div div{
+  background-color: rgb(197, 178, 207);
+}
 
+ol > li {
+  background-color:rgb(138, 216, 190);
+}
+
+h3 ~ p {
+  background-color: rgb(153, 187, 194);
+}
+
+h3 + p {
+  background-color: rgb(187, 183, 215);
+}
+
+div.flexbox-item-2 {
+  background-color: rgb(215, 183, 183);
+}
 
 video {
     width: 500px;
     height: auto;
     position:static;
     
+}
+
+a[target = blank] {
+  background-color: rgb(138, 216, 216);
 }
 
 a:link {
@@ -106,7 +140,7 @@ a:link {
     width: 200px;
     margin: 10px;
     border: 3px solid #333;
-    background-color: #dfdfdf;
+    
   }
 
   .flexbox-item-1{
@@ -130,7 +164,7 @@ a:link {
     width: 200px;
     margin: 10px;
     border: 3px solid #333;
-    background-color: #dfdfdf;
+    
   }
   .item1 {
     grid-column-start: 1;
